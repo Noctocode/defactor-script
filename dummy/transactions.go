@@ -1,0 +1,118 @@
+package dummy
+
+import "time"
+
+var DummyTransactions = []map[string]interface{}{
+	// Asset 1 deployment
+	{
+		"hash":        "0x00000000000000000000000000000000000000",
+		"sender":      "",
+		"signed_data": nil,
+		"chain":       80002,
+		"state":       "mined",
+		"created_at":  time.Now(),
+		"type":        "deploy",
+		"asset_id":    "eb5e040d-4bd4-41d1-ba68-97d4b4b9f788",
+		"mined_at":    time.Now(),
+		"value":       "0",
+		"receiver":    "",
+	},
+	// Asset 2 deployment
+	{
+		"hash":        "0x00000000000000000000000000000000000000",
+		"sender":      "",
+		"signed_data": nil,
+		"chain":       80002,
+		"state":       "mined",
+		"created_at":  time.Now(),
+		"type":        "deploy",
+		"asset_id":    "dc4e8ae6-764a-4b79-b7c5-1be879b1c0f3",
+		"mined_at":    time.Now(),
+		"value":       "0",
+		"receiver":    "",
+	},
+	// Asset 3 deployment
+	{
+		"hash":        "0x00000000000000000000000000000000000000",
+		"sender":      "",
+		"signed_data": nil,
+		"chain":       80002,
+		"state":       "mined",
+		"created_at":  time.Now(),
+		"type":        "deploy",
+		"asset_id":    "bfc49d86-048d-4c82-8694-527bf2e9854f",
+		"mined_at":    time.Now(),
+		"value":       "0",
+		"receiver":    "",
+	},
+	// Asset 4 deployment
+	{
+		"hash":        "0x00000000000000000000000000000000000000",
+		"sender":      "",
+		"signed_data": nil,
+		"chain":       80002,
+		"state":       "mined",
+		"created_at":  time.Now(),
+		"type":        "deploy",
+		"asset_id":    "c63dd49c-8c80-47ba-a1f4-741972abfaa9",
+		"mined_at":    time.Now(),
+		"value":       "0",
+		"receiver":    "",
+	},
+	// Asset 5 deployment
+	{
+		"hash":        "0x00000000000000000000000000000000000000",
+		"sender":      "",
+		"signed_data": nil,
+		"chain":       80002,
+		"state":       "mined",
+		"created_at":  time.Now(),
+		"type":        "deploy",
+		"asset_id":    "ae2c6ab7-9afe-4117-b52e-44edaa913838",
+		"mined_at":    time.Now(),
+		"value":       "0",
+		"receiver":    "",
+	},
+	// Asset 6 deployment
+	{
+		"hash":        "0x00000000000000000000000000000000000000",
+		"sender":      "",
+		"signed_data": nil,
+		"chain":       80002,
+		"state":       "mined",
+		"created_at":  time.Now(),
+		"type":        "deploy",
+		"asset_id":    "40e70435-0e56-469d-8b08-c40f7b79ff68",
+		"mined_at":    time.Now(),
+		"value":       "0",
+		"receiver":    "",
+	},
+	// Asset 7 deployment
+	{
+		"hash":        "0x00000000000000000000000000000000000000",
+		"sender":      "",
+		"signed_data": nil,
+		"chain":       80002,
+		"state":       "mined",
+		"created_at":  time.Now(),
+		"type":        "deploy",
+		"asset_id":    "2a620b60-de66-4459-93ca-b3c29de1d152",
+		"mined_at":    time.Now(),
+		"value":       "0",
+		"receiver":    "",
+	},
+	// Asset 8 deployment
+	{
+		"hash":        "0x00000000000000000000000000000000000000",
+		"sender":      "",
+		"signed_data": nil,
+		"chain":       80002,
+		"state":       "mined",
+		"created_at":  time.Now(),
+		"type":        "deploy",
+		"asset_id":    "5125afc1-5676-48fa-b0c6-0d9cfa09e129",
+		"mined_at":    time.Now(),
+		"value":       "0",
+		"receiver":    "",
+	},
+}
