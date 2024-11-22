@@ -5,7 +5,7 @@ import "time"
 var DummyTransactions = []map[string]interface{}{
 	// Asset 1 deployment
 	{
-		"hash":        "0x00000000000000000000000000000000000000",
+		"hash":        "0x00000000000000000000000000000000000011",
 		"sender":      "",
 		"signed_data": nil,
 		"chain":       80002,
@@ -19,10 +19,10 @@ var DummyTransactions = []map[string]interface{}{
 	},
 	// Asset 2 deployment
 	{
-		"hash":        "0x00000000000000000000000000000000000000",
+		"hash":        "0x00000000000000000000000000000000000022",
 		"sender":      "",
 		"signed_data": nil,
-		"chain":       80002,
+		"chain":       11155111,
 		"state":       "mined",
 		"created_at":  time.Now(),
 		"type":        "deploy",
@@ -33,10 +33,10 @@ var DummyTransactions = []map[string]interface{}{
 	},
 	// Asset 3 deployment
 	{
-		"hash":        "0x00000000000000000000000000000000000000",
+		"hash":        "0x00000000000000000000000000000000000033",
 		"sender":      "",
 		"signed_data": nil,
-		"chain":       80002,
+		"chain":       11155111,
 		"state":       "mined",
 		"created_at":  time.Now(),
 		"type":        "deploy",
@@ -47,7 +47,7 @@ var DummyTransactions = []map[string]interface{}{
 	},
 	// Asset 4 deployment
 	{
-		"hash":        "0x00000000000000000000000000000000000000",
+		"hash":        "0x00000000000000000000000000000000000044",
 		"sender":      "",
 		"signed_data": nil,
 		"chain":       80002,
@@ -61,7 +61,7 @@ var DummyTransactions = []map[string]interface{}{
 	},
 	// Asset 5 deployment
 	{
-		"hash":        "0x00000000000000000000000000000000000000",
+		"hash":        "0x00000000000000000000000000000000000055",
 		"sender":      "",
 		"signed_data": nil,
 		"chain":       80002,
@@ -75,7 +75,7 @@ var DummyTransactions = []map[string]interface{}{
 	},
 	// Asset 6 deployment
 	{
-		"hash":        "0x00000000000000000000000000000000000000",
+		"hash":        "0x00000000000000000000000000000000000066",
 		"sender":      "",
 		"signed_data": nil,
 		"chain":       80002,
@@ -89,7 +89,7 @@ var DummyTransactions = []map[string]interface{}{
 	},
 	// Asset 7 deployment
 	{
-		"hash":        "0x00000000000000000000000000000000000000",
+		"hash":        "0x00000000000000000000000000000000000077",
 		"sender":      "",
 		"signed_data": nil,
 		"chain":       80002,
@@ -103,7 +103,7 @@ var DummyTransactions = []map[string]interface{}{
 	},
 	// Asset 8 deployment
 	{
-		"hash":        "0x00000000000000000000000000000000000000",
+		"hash":        "0x00000000000000000000000000000000000088",
 		"sender":      "",
 		"signed_data": nil,
 		"chain":       80002,
@@ -114,5 +114,61 @@ var DummyTransactions = []map[string]interface{}{
 		"mined_at":    time.Now(),
 		"value":       "0",
 		"receiver":    "",
+	},
+	// Asset 1 transfer
+	{
+		"hash":        "0x00000000000000000000000000000000000111",
+		"sender":      "",
+		"signed_data": nil,
+		"chain":       80002,
+		"state":       "mined",
+		"created_at":  time.Now(),
+		"type":        "transfer",
+		"asset_id":    "eb5e040d-4bd4-41d1-ba68-97d4b4b9f788",
+		"mined_at":    time.Now(),
+		"value":       "555000000000000000000",
+		"receiver":    "0xFf9dB49407e6A22056aFd3AeC39b2401A0DAB5E5",
+	},
+	// Asset 2 transfer
+	{
+		"hash":        "0x00000000000000000000000000000000000222",
+		"sender":      "",
+		"signed_data": nil,
+		"chain":       11155111,
+		"state":       "mined",
+		"created_at":  time.Now(),
+		"type":        "transfer",
+		"asset_id":    "dc4e8ae6-764a-4b79-b7c5-1be879b1c0f3",
+		"mined_at":    time.Now(),
+		"value":       "1000000000000000000000",
+		"receiver":    "0xFf9dB49407e6A22056aFd3AeC39b2401A0DAB5E5",
+	},
+	// Asset 3 transfer
+	{
+		"hash":        "0x00000000000000000000000000000000000333",
+		"sender":      "",
+		"signed_data": nil,
+		"chain":       11155111,
+		"state":       "mined",
+		"created_at":  time.Now(),
+		"type":        "transfer",
+		"asset_id":    "bfc49d86-048d-4c82-8694-527bf2e9854f",
+		"mined_at":    time.Now(),
+		"value":       "2000000000000000000000",
+		"receiver":    "0x5FfC014343cd971B7eb70732021E26C35B744cc4",
+	},
+	// Asset 4 transfer
+	{
+		"hash":        "0x00000000000000000000000000000000000444",
+		"sender":      "",
+		"signed_data": nil,
+		"chain":       80002,
+		"state":       "mined",
+		"created_at":  time.Now(),
+		"type":        "transfer",
+		"asset_id":    "c63dd49c-8c80-47ba-a1f4-741972abfaa9",
+		"mined_at":    time.Now(),
+		"value":       "5000000000000000000000",
+		"receiver":    "0x5FfC014343cd971B7eb70732021E26C35B744cc4",
 	},
 }

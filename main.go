@@ -74,7 +74,9 @@ func main() {
 	// //Execute Mutation: Create Transactions
 	for i := range dummy.DummyTransactions {
 		dummy.DummyTransactions[i]["sender"] = USER_WALLET
-		dummy.DummyTransactions[i]["receiver"] = USER_WALLET
+		if dummy.DummyTransactions[i]["receiver"] == "" {
+			dummy.DummyTransactions[i]["receiver"] = USER_WALLET
+		}
 	}
 	for _, tx := range dummy.DummyTransactions {
 		createTx, err := ExecuteGraphQL(URL, MutationCreateTransaction, tx, ADMIN_SK)
